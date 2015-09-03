@@ -1,10 +1,23 @@
 body {
     font-family: "Arial", sans serif;
-    background-color: turquoise;
+    background-color: white;
 }
 
-a {color: pink;
+a {color: turquoise;
     text-decoration: underline;
+}
+
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: pink;
+}
+
+a:active {
+    color: lime;
 }
 
 ul {
