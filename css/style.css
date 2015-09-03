@@ -1,0 +1,31 @@
+
+body {
+    background-color: turquoise;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: light;
+    
+}
+
+h1 {font-family: Arial;
+    background-color: turquoise;
+    font-size: 75px;
+    text-align: center ;
+    color: white;
+   
+}
+
+p{color: grey
+    
+}
+
+.special {color: white;
+}
+
+#last {color: pink;
+}
+
+/* This is a comment*/
+
