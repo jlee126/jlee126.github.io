@@ -24,7 +24,8 @@ p{color: grey
 .special {color: white;
 }
 
-#last {color: pink;
+.last {color: grey;
+        background-color: white;
 }
 
 /* This is a comment*/

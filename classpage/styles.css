@@ -1,9 +1,42 @@
 body {
-    font-family: "Arial", sans serif;
-    background-color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    background-color: #CCCCFF;
+    width: 1000px;
+    margin-left: 30px;
+    padding-top: 5px;
+background: background:
+        -moz-radial-gradient(turquoise 15%, transparent 16%),
+        -moz-radial-gradient(turquoise 15%, transparent 16%),
+        white;
+    background:
+        -webkit-radial-gradient(turquoise 15%, transparent 16%),
+        -webkit-radial-gradient(turquoise 15%, transparent 16%),
+        white;
+        background-position: 0 0, 80px 80px;
+    
+    -webkit-background-size:160px 160px;
+    -moz-background-size:160px 160px;
+    background-size:160px 160px;
 }
 
-a {color: turquoise;
+.sidebar {
+    background-color: turquoise;
+    border-right: 2px, #CCCCFF; solid;
+    width: 230px;
+    height: 550px;
+    padding-left: 40px;
+    padding-top:47;
+    position: fixed;
+    text-align: left;
+    font-size: 12px;
+    color: white;
+    
+}
+
+
+
+a {color: white;
     text-decoration: underline;
 }
 
@@ -17,9 +50,13 @@ a:hover {
 }
 
 a:active {
-    color: lime;
+    color: pink;
 }
 
+.posts { padding: 50px; 50px; 100px;
+        margin-left: 300;
+        background-color: white;
+        color: turquoise;
 ul {
     list-style: none;
     margin: 0;
@@ -27,5 +64,10 @@ ul {
 }
 
 li {margin: 0;
-    padding: 0;
+    padding:0;
+    text-align: left;
 }
+
+h1 { border-bottom: 2px, #CCCCFF solid;
+
+
