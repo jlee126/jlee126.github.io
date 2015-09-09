@@ -5,13 +5,14 @@ body {
     width: 1000px;
     margin-left: 30px;
     padding-top: 5px;
+    opacity: 0.9;
 background: background:
-        -moz-radial-gradient(turquoise 15%, transparent 16%),
-        -moz-radial-gradient(turquoise 15%, transparent 16%),
+        -moz-radial-gradient(#3399FF 15%, transparent 16%),
+        -moz-radial-gradient(#3399FF 15%, transparent 16%),
         white;
     background:
-        -webkit-radial-gradient(turquoise 15%, transparent 16%),
-        -webkit-radial-gradient(turquoise 15%, transparent 16%),
+        -webkit-radial-gradient(#3399FF 15%, transparent 16%),
+        -webkit-radial-gradient(#3399FF 15%, transparent 16%),
         white;
         background-position: 0 0, 80px 80px;
     
@@ -21,8 +22,8 @@ background: background:
 }
 
 .sidebar {
-    background-color: turquoise;
-    border-right: 2px, #CCCCFF; solid;
+    background-color: #FF9966;
+    border-right: 2px #CCCCFF solid;
     width: 230px;
     height: 550px;
     padding-left: 40px;
@@ -56,7 +57,15 @@ a:active {
 .posts { padding: 50px; 50px; 100px;
         margin-left: 300;
         background-color: white;
-        color: turquoise;
+        color: #3399FF;
+}
+
+.post-title { border: 1px solid #FF9966;
+}
+
+.post-date h1 { border: 1px solid #3399FF;
+}
+
 ul {
     list-style: none;
     margin: 0;
