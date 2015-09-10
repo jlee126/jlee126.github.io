@@ -14,25 +14,42 @@ h1 {font-family: Arial;
     font-size: 75px;
     text-align: center ;
     color: white;
+    
 }
 
 .hello { background-color: turquoise;
     font-size: 20px;
     padding: 10px;
     border: 10px solid white;
-    margin: 40px;
-    width: 100px;
-    float: left;
+    margin: 10px;
+    width: 160px;
+    display: inline-block;
 }
 
-.wrapper { width: 700px;
-            margin: auto;
+.wrapper { width: 600px;
+            margin: 0 auto;
+            font-size: 0;
+            position: relative;
 }
 
 mark { display: block;
     background-color: white;
     padding: 10px;
     opacity: 0.8;
+}
+
+.bug { background-color: white;
+        color: pink;
+        padding: 10px;
+        border-radius: 300px;
+        font-size: 90px;
+        line-height: 90px;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        border: 5px solid pink;
+        position: relative;
+        margin: auto;
 }
 
 
