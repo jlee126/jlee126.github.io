@@ -5,7 +5,7 @@ body {
     font-size: 20px;
     color: white;
     text-align: center;
-    font-weight: light;
+    font-weight: lighter;
     
 }
 
@@ -14,8 +14,27 @@ h1 {font-family: Arial;
     font-size: 75px;
     text-align: center ;
     color: white;
-   
 }
+
+.hello { background-color: turquoise;
+    font-size: 20px;
+    padding: 10px;
+    border: 10px solid white;
+    margin: 40px;
+    width: 100px;
+    float: left;
+}
+
+.wrapper { width: 700px;
+            margin: auto;
+}
+
+mark { display: block;
+    background-color: white;
+    padding: 10px;
+    opacity: 0.8;
+}
+
 
 p{color: grey
     
