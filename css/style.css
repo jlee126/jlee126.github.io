@@ -26,10 +26,12 @@ h1 {font-family: Arial;
     display: inline-block;
 }
 
-.wrapper { width: 600px;
+.wrapper { width: 100%;
             margin: 0 auto;
-            font-size: 0;
+            font-size: 10px;
             position: relative;
+            height: 50px;
+            text-align: center;
 }
 
 mark { display: block;
@@ -62,6 +64,27 @@ p{color: grey
 
 .last {color: grey;
         background-color: white;
+}
+
+.box { width: 0;
+height: 0;
+border-top: 200px solid pink;
+border-right: 200px solid transparent;
+border-left: 200px solid transparent;
+margin: auto;
+z-index: 100;
+}
+
+.box2 { top: 50px
+    left: 90px;
+    width: 0;
+    position: absolute;
+height: 0;
+border-top: 200px solid pink;
+border-right: 100px solid transparent;
+border-left: 100px solid transparent;
+margin: auto;
+z-index: 200;
 }
 
 /* This is a comment*/
