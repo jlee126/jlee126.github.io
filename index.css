@@ -1,0 +1,29 @@
+body { font: Arial;
+    text-align: center;
+
+}
+
+h1 { font-family: Helvetica;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+
+a { font-family: Helvetica;
+    margin: auto;
+    color: white;
+    width: 100px; 
+}
+
+a:visited { 
+    color: pink
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: white;
+}
