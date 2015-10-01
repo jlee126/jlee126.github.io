@@ -17,6 +17,10 @@ h1 {font-family: Arial;
     
 }
 
+.myclass {
+    background-color: pink;
+}
+
 .hello { background-color: turquoise;
     font-size: 20px;
     padding: 10px;
