@@ -26,7 +26,7 @@ If the user has activated the button, toggle the visibility of id "cat" to revea
 
 */
 
-$("#pirate").remove();
+$("#pirate").hide();
 
 $("body").addClass("gradient");
 
@@ -39,16 +39,36 @@ $("#toggle").click(function() {
     $("#status").html("GO");
     $("#status").css("background-color","green");
     $("#toggle").html("Stop");
+    $("#status").mouseover(function() {
+    $("#pirate").show();
+});
+$("#status").mouseout(function() {
+    $("#pirate").hide();
+});
+
+    $("#cat").show();
     clicked = true;
     } else { 
     
      $("#status").html("STOP");
     $("#status").css("background-color","red");
     $("#toggle").html("Start");
+    $("#status").mouseover(function() {
+    $("#pirate").hide();
+});
+    $("#cat").hide();
     clicked = false; 
     }
     
 });
+
+
+//Part 3
+
+
+   
+
+
 
 
 
