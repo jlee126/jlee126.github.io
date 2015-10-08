@@ -39,31 +39,44 @@ $("#toggle").click(function() {
     $("#status").html("GO");
     $("#status").css("background-color","green");
     $("#toggle").html("Stop");
-    $("#status").mouseover(function() {
-    $("#pirate").show();
-});
-$("#status").mouseout(function() {
-    $("#pirate").hide();
-});
 
-    $("#cat").show();
     clicked = true;
     } else { 
     
      $("#status").html("STOP");
     $("#status").css("background-color","red");
     $("#toggle").html("Start");
-    $("#status").mouseover(function() {
-    $("#pirate").hide();
-});
-    $("#cat").hide();
+
     clicked = false; 
     }
     
 });
 
+$("#status").mouseenter(function() {
+  if (clicked = true) { 
+ $("#cat").show(); } 
+    
+}); 
+ $("#status").mouseleave(function() {
+ $("#cat").hide();  
+ 
+ }); 
 
-//Part 3
+//Class Notes:
+
+// $(this) targets only what is clicked
+// boolean most appropriate bc there are only two values- true or false
+// if statements are always checking a condition
+
+// HW was only one step!!! JUST SHOW THE CAT
+
+// $("#status").mouseenter(function() {
+//      if (clicked = true) { 
+//  $(cat).show(); } }); 
+// $("#status").mouseleave(function() {
+//  $(cat).hide(); } }); 
+
+
 
 
    
