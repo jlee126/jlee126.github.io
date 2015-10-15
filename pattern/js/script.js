@@ -20,22 +20,12 @@ console.log("its working")
 //}
 //var random_images = images[Math.floor(Math.random()*images.length)];
 $(".toggle").click(function() {
-    
-var randomimg = random_images[Math.floor(Math.random()*random_images.length)];
-console.log("hi");
 
 
-$(".images").html("<img src='img/"+ randomimg + "'>")
-$(".images").html("<img src='img/"+ randomimg + "'>")
-$(".images").html("<img src='img/"+ randomimg + "'>")
-$(".images").html("<img src='img/"+ randomimg + "'>")
-$(".images").html("<img src='img/"+ randomimg + "'>")
-$(".images").html("<img src='img/"+ randomimg + "'>")
-$(".images").html("<img src='img/"+ randomimg + "'>")
-$(".images").html("<img src='img/"+ randomimg + "'>")
-$(".images").html("<img src='img/"+ randomimg + "'>")
-
-
+    $(".images").each(function() {
+        var randomimg = random_images[Math.floor(Math.random()*random_images.length)];
+        $(this).html("<img src='img/"+ randomimg + "'>");
+    });
 });
 //$("div").html(random_images);
  
