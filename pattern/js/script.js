@@ -27,6 +27,15 @@ $(".toggle").click(function() {
         $(this).html("<img src='img/"+ randomimg + "'>");
     });
 });
+
+$(".toggle").click(function() {
+
+
+    $(".sushi").each(function() {
+        var randomimg = random_images[Math.floor(Math.random()*random_images.length)];
+        $(this).html("<img src='img/"+ randomimg + "'>");
+    });
+});
 //$("div").html(random_images);
  
 /*return image;

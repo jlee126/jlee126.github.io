@@ -12,10 +12,18 @@ background-color: #CCCCFF;
 	font-family: helvetica;
 	margin: auto;
 	color: #CCCCFF;
+	position: fixed;
 
 }
 
 .images {
 	width: 200px;
 	margin: auto;
+	float: left; 
+}
+
+.sushi { 
+	width: 200px;
+	float: right;
+	
 }
