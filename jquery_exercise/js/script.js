@@ -33,32 +33,33 @@ $("body").addClass("gradient");
 var clicked = false;
 
 $("#toggle").click(function() {
+    
     if (clicked == false) {
     $("#status").html("GO");
     $("#status").css("background-color" , "green");
     $("#toggle").html("STOP");
-    $("#status").mouseover(function() {
-        $("pirate").show();
-});
 
-
-$("#status").mouseout(function() {
-    $("pirate").hide();
-});
-
-    $("#cat").show();
     clicked = true;
     } else {
-        $("#status").html("STOP");
+        
+    $("#status").html("STOP");
     $("#status").css("background-color" , "red");
     $("#toggle").html("START");
-    $("#status").mouseover(function() {
-    $("pirate").hide();
-});
 
-    $("#cat").hide();
     clicked = false;
     }
+    
+});
+
+    $("#status").mouseenter(function() {
+        if (clicked = true) {
+        $("#cat").show(); }
+        
+});
+
+    $("#status").mouseleave(function() {
+    $("#cat").hide();
+    
 });
 
 //Class Notes:
