@@ -1,0 +1,88 @@
+body {
+background-color: #FF6666;
+width: 100%;
+position: auto;
+
+}
+
+.toggle {
+	width: 100px;
+	height:100px;
+	border-radius: 50px;
+	font-size: 35px ;
+	background-color: white;
+	box-shadow: 10px 10px 10px 0px solid, pink;
+	font-family: helvetica;
+	margin-left: 47%; 
+	margin-top: 40%;
+	color: #FF6666;
+	position: fixed ;
+
+}
+
+.box {
+	width: 500px ;
+	height: 0px;
+	color: #E0A366;
+	border:  solid #E0A366;
+	border-width: 30px;
+	position: auto;
+	margin: auto;
+}
+
+.box2 {
+	width: 550px ;
+	height: 0px;
+	color: #E0A366;
+	border:  solid red;
+	border-width: 20px;
+	position: 67%;
+	margin: auto;
+	
+}
+
+.box3 {
+	width: 500px ;
+	height: 0px;
+	color: #E0A366;
+	border:  solid orange;
+	border-width: 30px;
+	position: 67%;
+	margin: auto;
+	border-radius: 25px;
+	
+}
+
+.box4 {
+	width: 420px ;
+	height: 0px;
+	color: #E0A366;
+	border:  dashed #5CD65C;
+	border-width: 30px;
+	position: 67%;
+	margin: auto;
+	border-radius: 25px;
+}
+
+.box5 {
+	width: 500px ;
+	height: 0px;
+	color: #E0A366;
+	border:  solid #E0A366;
+	border-width: 30px;
+	position: auto;
+	margin: auto;
+}
+
+
+.images {
+	width: 200px;
+	margin: auto;
+	float: left; 
+}
+
+.sushi { 
+	width: 200px;
+	float: right;
+	
+}
