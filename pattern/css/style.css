@@ -1,5 +1,7 @@
 body {
 background-color: #CCCCFF;
+width: 1200px;
+position: auto;
 }
 
 .toggle {
