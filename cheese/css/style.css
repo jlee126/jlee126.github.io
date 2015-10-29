@@ -10,14 +10,19 @@ position: auto;
 	height:100px;
 	border-radius: 50px;
 	font-size: 30px ;
-	background-color: white;
-	box-shadow: 10px 10px 10px 0px solid, pink;
+	background-color: orange;
 	font-family: tahoma;
-	margin-left: 47%; 
-	margin-top: 40%;
-	color: #FF6666;
-	position: fixed ;
+	margin: 0 auto;
+	color: white;
+	border: none;
 
+}
+
+.button {
+	height: 20px;
+	background-color: white;
+	font-family: tahoma;
+	
 }
 
 .box {

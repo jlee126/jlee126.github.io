@@ -20,3 +20,11 @@
      //   $(this).html("<img src='img/"+ randomimg + "'>");
   //  });
 // });
+
+
+$(".sidebar div").click(function() {
+    var passedObject = $(this).clone();
+    passedObject.css("width",$(this).data('new'));
+   passedObject.css("transform",'rotate(180deg)');
+    $(".stage").append(passedObject); 
+});
