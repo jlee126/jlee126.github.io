@@ -5,12 +5,45 @@ position: relative;
 
 }
 
+.start {
+	margin: auto;
+	position: relative;
+	background-color: orange;
+	border-radius: 25px;
+	font-family: helvetica;
+	color: white;
+	font-size: 20px;
+	border: none;
+}
+
+.so {
+	margin:auto ;
+	position: relative;
+	background-color: orange;
+	border-radius: 25px;
+	font-family: helvetica;
+	font-size: 20px;
+	color: white;
+	border: none;
+}
+
+.share {
+	margin: auto;
+	position: relative;
+	background-color: orange;
+	border-radius: 25px;
+	font-family: helvetica;
+	font-size: 20px;
+	color: white;
+	border: none;
+}
+
 .sidebar {
 	position: scroll ;
 	background-color: pink;
 	width: 200px;
 	margin: 0px;
-	height: 450px;
+	height: 500px;
 	margin-top: -10px;
 	overflow: auto;
 }
@@ -35,7 +68,7 @@ position: relative;
 	border-width: 10px;
 	border-radius: 5px;
 	position: auto;
-	margin: 15px;
+	margin: auto;
 	background-color: #F5E0CC;
 	
 }
@@ -48,7 +81,7 @@ position: relative;
      -webkit-border-radius: 90px 90px 0 0;
      background: #DB944D;
      position: auto;
-     margin: 15px;
+     margin: auto;
 }
 
 .bread4 {
@@ -59,7 +92,7 @@ position: relative;
      -webkit-border-radius: 90px 90px 0 0;
      background: #DB944D;
      position: auto;
-     margin: 15px;
+     margin: auto;
      -webkit-transform:rotate(180deg);
 }
 
@@ -71,7 +104,7 @@ position: relative;
 	border-radius: 15px;
 	border-width: 10px;
 	position: auto;
-	margin: 15px;
+	margin: auto;
 	background-color: #94704D;
 }
 
@@ -85,7 +118,7 @@ position: relative;
      border-width: 15px;
      border: solid  #E6B280;
      position: center;
-     margin: 25px;
+     margin: auto;
 }
 
 .bread7 {
@@ -98,7 +131,7 @@ position: relative;
      border-width: 15px;
      border: solid  #E6B280;
      position: center;
-     margin: 25px;
+     margin: auto;
      -webkit-transform:rotate(180deg);
 }
 
@@ -106,7 +139,7 @@ position: relative;
     height: 20px;
     width: 160px;
     background-color: #70FF70;
-    margin: 16px;
+    margin: auto;
     border-radius: 15px;
 }
 
@@ -114,7 +147,7 @@ position: relative;
     height: 10px;
     width: 160px;
     background-color: yellow;
-    margin: 16px;
+    margin: auto;
     border-radius: 25px;
     border-width: 30px;
     border: dotted yellow;
@@ -124,6 +157,41 @@ position: relative;
     height: 5px;
     width: 160px;
     background-color: red;
-    margin: 16px;
+    margin: auto;
     border-radius: 5px;
+}
+
+.box3 { 
+	width: 140px;
+	border: dashed #33CC33;
+	border-width: 4.5px;
+	margin: auto;
+}
+
+.box4 {
+	height: 19px;
+	width: 140px;
+	margin: auto;
+	border: solid #663300;
+	background-color:#663300;
+	border-radius: 15px;
+}
+
+.box5 {
+	height: 15px;
+	width: 150px;
+	border: dashed pink;
+	background-color: orange;
+	margin: auto;
+}
+
+.box6 { 
+	height: 15px;
+	width: 150px;
+	background-color: #FFCC66;
+	margin: auto;
+}
+
+.box7 {
+}
 }
