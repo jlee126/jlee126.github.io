@@ -1,0 +1,129 @@
+body {
+background-color: white;
+width: 100%;
+position: relative;
+
+}
+
+.sidebar {
+	position: scroll ;
+	background-color: pink;
+	width: 200px;
+	margin: 0px;
+	height: 450px;
+	margin-top: -10px;
+	overflow: auto;
+}
+
+
+.bread {
+	width: 150px ;
+	height: 10px;
+	color: #E0A366;
+	border: solid #E0A366;
+	border-width: 10px;
+	position: left scroll;
+	margin: 15px;
+	background-color: #E0A366;
+}
+
+.bread2 {
+	width: 150px;
+	height: 10px;
+	color: white;
+	border:  solid #E0A384;
+	border-width: 10px;
+	border-radius: 5px;
+	position: auto;
+	margin: 15px;
+	background-color: #F5E0CC;
+	
+}
+
+.bread3 {
+     height:65px;
+     width: 170px;
+     border-radius: 90px 90px 0 0;
+     -moz-border-radius: 90px 90px 0 0;
+     -webkit-border-radius: 90px 90px 0 0;
+     background: #DB944D;
+     position: auto;
+     margin: 15px;
+}
+
+.bread4 {
+     height: 35px;
+     width: 170px;
+     border-radius: 90px 90px 0 0;
+     -moz-border-radius: 90px 90px 0 0;
+     -webkit-border-radius: 90px 90px 0 0;
+     background: #DB944D;
+     position: auto;
+     margin: 15px;
+     -webkit-transform:rotate(180deg);
+}
+
+.bread5 {
+	width: 150px;
+	height: 10px;
+	color: white;
+	border:  solid #AD855C;
+	border-radius: 15px;
+	border-width: 10px;
+	position: auto;
+	margin: 15px;
+	background-color: #94704D;
+}
+
+.bread6 {
+     height:55px;
+     width: 140px;
+     border-radius: 90px 90px 0 0;
+     -moz-border-radius: 90px 90px 0 0;
+     -webkit-border-radius: 90px 90px 0 0;
+     background: #F5E0CC;
+     border-width: 15px;
+     border: solid  #E6B280;
+     position: center;
+     margin: 25px;
+}
+
+.bread7 {
+     height:30px;
+     width: 140px;
+     border-radius: 90px 90px 0 0;
+     -moz-border-radius: 90px 90px 0 0;
+     -webkit-border-radius: 90px 90px 0 0;
+     background: #F5E0CC;
+     border-width: 15px;
+     border: solid  #E6B280;
+     position: center;
+     margin: 25px;
+     -webkit-transform:rotate(180deg);
+}
+
+.box { 
+    height: 20px;
+    width: 160px;
+    background-color: #70FF70;
+    margin: 16px;
+    border-radius: 15px;
+}
+
+.box1 { 
+    height: 10px;
+    width: 160px;
+    background-color: yellow;
+    margin: 16px;
+    border-radius: 25px;
+    border-width: 30px;
+    border: dotted yellow;
+}
+
+.box2 { 
+    height: 5px;
+    width: 160px;
+    background-color: red;
+    margin: 16px;
+    border-radius: 5px;
+}
