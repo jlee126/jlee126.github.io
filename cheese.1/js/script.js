@@ -28,3 +28,4 @@ $(".sidebar div").click(function() {
    passedObject.css("transform",'rotate(180deg)');
     $(".stage").append(passedObject); 
 });
+
