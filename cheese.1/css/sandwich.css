@@ -282,9 +282,17 @@ background-color: white;
 	width: 150px;
 	margin: auto;
 	background-color: orange;
-	border: ;
+	border: 5px ;
 	border-width: 5px;
 	border-radius: 10px;
+}
+
+.box14 {
+	height: 20px;
+	width:150px;
+	margin: auto;
+	border-radius: 15px;
+	background-color: #ffffcc;
 }
 
 .olive {
