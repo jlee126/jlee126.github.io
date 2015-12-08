@@ -3,6 +3,17 @@ background-color: white;
 
 }
 
+.button1 {
+	width: 100px;
+	height:100px;
+	border-radius: 50px;
+	background-color: orange;
+	margin-right: 10px;
+	color: black;
+	border: blue;
+	
+}
+
 .start {
 	margin: auto;
 	position: relative;
@@ -277,6 +288,17 @@ background-color: white;
 	-webkit-transform:rotate(-3deg);
 }
 
+.triangle2 {
+	width: 0;
+	height: 0;
+	border-top: 20px solid purple;
+	border-right: 150px solid transparent;
+	margin: auto;
+	border-radius: .5px;
+	-webkit-transform:rotate(-3deg);
+	padding-bottom: 20px;
+}
+
 .box13 {
 	height: 20px;
 	width: 150px;
@@ -295,6 +317,14 @@ background-color: white;
 	background-color: #ffffcc;
 }
 
+.box15 {
+	height: 20px;
+	width:150px;
+	margin: auto;
+	border-radius: 15px;
+	background-color: red;
+}
+
 .olive {
 	height: 30px;
 	background-color: green;
@@ -305,15 +335,6 @@ background-color: white;
 	transform: rotate(25deg);
 }
 
-.button1 {
-	width: 100px;
-	height:100px;
-	border-radius: 50px;
-	background-color: orange;
-	margin: 0 auto;
-	color: white;
-	border: none;
-}
 
 .button2 {
 	width: 100px;
