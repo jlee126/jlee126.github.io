@@ -1,17 +1,5 @@
 body {
 background-color: white;
-
-}
-
-.button1 {
-	width: 100px;
-	height:100px;
-	border-radius: 50px;
-	background-color: orange;
-	margin-right: 10px;
-	color: black;
-	border: blue;
-	
 }
 
 .start {
@@ -70,9 +58,18 @@ background-color: white;
 	position: fixed;
 	top:0;
 	left:0;
-	overflow: scroll;
+	overflow-y: scroll;
 	padding-top: 30px;
 	padding-bottom: 50px;
+}
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
 
 
@@ -85,6 +82,7 @@ background-color: white;
 	position: left scroll;
 	margin: auto;
 	background-color: #E0A366;
+	cursor: hand;
 
 }
 
@@ -98,8 +96,7 @@ background-color: white;
 	position: auto;
 	margin: auto;
 	background-color: #F5E0CC;
-
-	
+	cursor: hand; 
 }
 
 .bread3 {
@@ -111,6 +108,7 @@ background-color: white;
      background: #DB944D;
      position: auto;
      margin: auto;
+     cursor: hand;
 
 }
 
@@ -123,6 +121,7 @@ background-color: white;
      background: #DB944D;
      position: auto;
      margin: auto;
+     cursor: hand;
 }
 
 .bread5 {
@@ -135,6 +134,7 @@ background-color: white;
 	position: auto;
 	margin: auto;
 	background-color: #94704D;
+	cursor: hand;
 }
 
 .bread6 {
@@ -148,6 +148,7 @@ background-color: white;
      border: solid  #E6B280;
      position: center;
      margin: auto;
+     cursor: hand;
 }
 
 .bread7 {
@@ -161,6 +162,35 @@ background-color: white;
      border: solid  #E6B280;
      position: center;
      margin: auto;
+     cursor: hand;
+}
+
+.greentea {
+     height:55px;
+     width: 140px;
+     border-radius: 90px 90px 0 0;
+     -moz-border-radius: 90px 90px 0 0;
+     -webkit-border-radius: 90px 90px 0 0;
+     background: #98e600;
+     border-width: 15px;
+     border: solid  #b35900 2px;
+     position: center;
+     margin: auto;
+     cursor: hand;
+}
+
+.greentea2 {
+     height:30px;
+     width: 140px;
+     border-radius: 90px 90px 0 0;
+     -moz-border-radius: 0 0 90px 90px;
+     -webkit-border-radius: 0 0 90px 90px;
+     background: #98e600;
+     border-width: 15px;
+     border: solid  #b35900 2px;
+     position: center;
+     margin: auto;
+     cursor: hand;
 }
 
 .box { 
@@ -169,6 +199,7 @@ background-color: white;
     background-color: #70FF70;
     margin: auto;
     border-radius: 15px;
+    cursor: hand;
 }
 
 .box1 { 
@@ -179,6 +210,7 @@ background-color: white;
     border-radius: 25px;
     border-width: 30px;
     border: dotted yellow;
+    cursor: hand;
 }
 
 .box2 { 
@@ -187,6 +219,7 @@ background-color: white;
     background-color: red;
     margin: auto;
     border-radius: 5px;
+    cursor: hand;
 }
 
 .box3 { 
@@ -194,6 +227,7 @@ background-color: white;
 	border: dashed #33CC33;
 	border-width: 4.5px;
 	margin: auto;
+	cursor: hand;
 }
 
 .box4 {
@@ -203,6 +237,7 @@ background-color: white;
 	border: solid #663300;
 	background-color:#663300;
 	border-radius: 15px;
+	cursor: hand;
 }
 
 .box5 {
@@ -211,6 +246,34 @@ background-color: white;
 	border: dashed transparent;
 	background-color: orange;
 	margin: auto;
+	cursor: hand;
+}
+
+.box24 {
+	height: 15px;
+	width: 150px;
+	border: dashed transparent;
+	background-color: #33cc33;
+	margin: auto;
+	cursor: hand;
+}
+
+.box25 {
+		height: 15px;
+	width: 150px;
+	border: dashed transparent;
+	background-color: #ff9999;
+	margin: auto;
+	cursor: hand;
+}
+
+.box26 {
+		height: 15px;
+	width: 150px;
+	border: dashed transparent;
+	background-color: #ff6600;
+	margin: auto;
+	cursor: hand;
 }
 
 .box6 { 
@@ -218,6 +281,7 @@ background-color: white;
 	width: 150px;
 	background-color: #FFCC66;
 	margin: auto;
+	cursor: hand;
 }
 
 .box7 {
@@ -226,6 +290,7 @@ background-color: white;
 	background-color: #993300;
 	width: 150px;
 	border-radius: 10px;
+	cursor: hand;
 }
 
 .box8 { 
@@ -236,6 +301,7 @@ background-color: white;
 	border: solid #CC0000;
 	border-radius: 25px;
 	border-width: 4px;
+	cursor: hand;
 }
 
 .box9 {
@@ -246,6 +312,7 @@ background-color: white;
 	border-radius: 40px;
 	border-width: 7px;
 	margin: auto;
+	cursor: hand;
 }
 
 .box10 {
@@ -259,6 +326,7 @@ background-color: white;
      border: solid  #005C00;
      position: center;
      margin: auto;
+     cursor: hand;
 }
 
 .box11 {
@@ -267,6 +335,7 @@ background-color: white;
 	border-width: 10px;
 	border-radius: 20px;
 	margin: auto;
+	cursor: hand;
 }
 
 .box12 {
@@ -277,6 +346,55 @@ background-color: white;
 	border: solid red;
 	border-width: 5px;
 	border-radius: 10px;
+	cursor: hand;
+}
+
+.topbun {
+	 height:65px;
+     width: 170px;
+     border-radius: 90px 90px 0 0;
+     -moz-border-radius: 90px 90px 0 0;
+     -webkit-border-radius: 90px 90px 0 0;
+     background: #99ccff;
+     position: auto;
+     margin: auto;
+     cursor: hand;
+}
+
+.bottombun {
+	     height: 35px;
+     width: 170px;
+     border-radius: 0 0 90px 90px;
+     -moz-border-radius: 0 0  90px 90px ;
+     -webkit-border-radius: 0 0 90px 90px ;
+     background: #99ccff;
+     position: auto;
+     margin: auto;
+     cursor: hand;
+}
+
+.topbun2 {
+	 height:65px;
+     width: 170px;
+     border-radius: 90px 90px 0 0;
+     -moz-border-radius: 90px 90px 0 0;
+     -webkit-border-radius: 90px 90px 0 0;
+     background: #e5ccff;
+     position: auto;
+     margin: auto;
+     cursor: hand;
+}
+
+.bottombun2 {
+	     height: 35px;
+     width: 170px;
+     border-radius: 0 0 90px 90px;
+     -moz-border-radius: 0 0  90px 90px ;
+     -webkit-border-radius: 0 0 90px 90px ;
+     background: #e5ccff;
+     position: auto;
+     margin: auto;
+     cursor: hand;
 }
 
 .triangle1 {
@@ -286,6 +404,7 @@ background-color: white;
 	border-right: 150px solid transparent;
 	margin: auto;
 	-webkit-transform:rotate(-3deg);
+	cursor: hand;
 }
 
 .triangle2 {
@@ -296,7 +415,7 @@ background-color: white;
 	margin: auto;
 	border-radius: .5px;
 	-webkit-transform:rotate(-3deg);
-	padding-bottom: 20px;
+	cursor: hand;
 }
 
 .box13 {
@@ -307,6 +426,7 @@ background-color: white;
 	border: 5px ;
 	border-width: 5px;
 	border-radius: 10px;
+	cursor: hand;
 }
 
 .box14 {
@@ -315,6 +435,7 @@ background-color: white;
 	margin: auto;
 	border-radius: 15px;
 	background-color: #ffffcc;
+	cursor: hand;
 }
 
 .box15 {
@@ -323,6 +444,89 @@ background-color: white;
 	margin: auto;
 	border-radius: 15px;
 	background-color: red;
+	cursor: hand;
+}
+
+.box16 {
+	height: 20px;
+	width:150px;
+	margin: auto;
+	border-radius: 5px;
+	background-color: #ff8080;
+	cursor: hand;
+}
+
+.box17 {
+	height: 20px;
+	width:150px;
+	margin: auto;
+	border-radius: 5px;
+	background-color: #ff8433;
+	cursor: hand;
+}
+
+.box18 {
+	height: 20px;
+	width:150px;
+	margin: auto;
+	border-radius: 5px;
+	border: 2px solid #ccffcc;
+	background-color: #ffccff;
+	cursor: hand;
+}
+
+.box19 {
+	height: 30px;
+	width: 120px;
+	background-color: #FFFFE6;
+	border: solid #ff9833;
+	border-radius: 40px;
+	border-width: 7px;
+	margin: auto;
+	cursor: hand;
+}
+
+.box20 {
+	height: 25px;
+	width: 150px;
+	background-color: black;
+	border-radius: 30px;
+	border-width: 7px;
+	margin: auto;
+	cursor: hand;
+}
+
+.box21 {
+	height: 15px;
+	width: 150px;
+	background-color: #993300;
+	border-radius: 5px;
+	border-width: 7px;
+	border: #cc6600 solid ;
+	margin: auto;
+	cursor: hand;
+}
+
+.box22 {
+	height: 15px;
+	width: 150px;
+	background-color: #ffe5e5;
+	border-radius: 5px;
+	border-width: 9px;
+	border: #b3efff solid 6px;
+	margin: auto;
+	cursor: hand;
+}
+
+.box23 {
+	height: 15px;
+	width: 150px;
+	background-color: #ccffff;
+	border-radius: 15px;
+	border-width: 9px;
+	border: #e5e5ff solid 6px;
+	margin: auto;
+	cursor: hand;
 }
 
 .olive {
@@ -333,6 +537,7 @@ background-color: white;
 	border-radius:15px;
 	border: solid red;
 	transform: rotate(25deg);
+	cursor: hand;
 }
 
 
@@ -344,17 +549,35 @@ background-color: white;
 	margin: 0 auto;
 	color: white;
 	border: none;
+	z-index:1;
+	position: absolute;
+	cursor: hand;
 }
 
-.button3 {
-	width: 100px;
-	height:100px;
-	border-radius: 50px;
+.button1 {
+	width: 80px;
+	height: 50px;
+	border-radius: 25px;
+	margin-left: 80%;
+	margin-top: 420px;
 	background-color: orange;
-	margin: 0 auto;
-	color: white;
-	border: none;
+	font-size: 20px;
+	z-index:1;
+	position: relative;
+	top: 100px;
+	left: 100px;
+	font-family: tahoma;
+	text-align: center;
+	vertical-align: center;
+	padding: 10px;
+    color: white;
+    cursor: hand;
+    text-decoration: none;
+    visited: none;
 }
 
+a:visited { 
+    color: orange;
+}
 
 

@@ -91,5 +91,10 @@ margin: auto;
 z-index: 200;
 }
 
+.toggle {
+    height: 20px
+
+}
+
 /* This is a comment*/
 
