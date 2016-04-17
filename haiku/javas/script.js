@@ -20,11 +20,12 @@ var random__images = ["puppies.jpg", "alpacasso.jpg", "panda.JPG", "cinnabon.jpg
 $(".toggle").click(function() {
 
 
-  $(".background").each(function() {
+  $(".content").each(function() {
        var randomimg = random__images[Math.floor(Math.random()*random__images.length)];
     $(this).html("<img src='img/"+ randomimg + "'>");
    });
    });
+
 
 
 

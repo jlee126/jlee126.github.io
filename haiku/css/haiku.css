@@ -55,9 +55,34 @@ div {
 	padding-top: 0%;
 }
 
-.background { 
+/*.background { 
 	background: repeat center center local; 
 	background-size: cover;
 	position: fixed;
 	margin: center;
+}*/
+
+.background {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 0; right: 0; left: 0;
+	
+}
+
+.content {
+	width: 50vw;
+	height: 50vh;
+	position: fixed;
+	margin: auto;
+	top: 0; bottom: 0; right: 0; left: 0;
+	
+	
+}
+
+img {
+	margin:auto;
+	position: fixed;
+	top: 0; bottom: 0; right: 0; left: 0;
 }
