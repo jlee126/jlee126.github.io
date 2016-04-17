@@ -1,5 +1,6 @@
 
-var random_images = ["haiku1.png", "haiku2.png", "haiku3.png", "haiku4.png", "haiku5.png", "haiku6.png", "haiku7.png", "haiku8.png", "haiku9.png"];
+var random_images = ["haiku1.png", "haiku2.png", "haiku3.png", "haiku4.png", "haiku5.png", "haiku6.png", "haiku7.png", "haiku8.png", "haiku9.png",
+"haiku10.png", "haiku11.png", "haiku12.png", "haiku13.png", "haiku14.png", "haiku15.png"];
 
 
 
@@ -15,7 +16,7 @@ $(".toggle").click(function() {
     });
 });
 
-var random__images = ["puppies.jpg", "alpacasso.jpg", "panda.JPG"]
+var random__images = ["puppies.jpg", "alpacasso.jpg", "panda.JPG", "cinnabon.jpg"]
 $(".toggle").click(function() {
 
 
