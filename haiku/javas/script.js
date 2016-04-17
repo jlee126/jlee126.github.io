@@ -1,5 +1,5 @@
 
-var random_images = ["sushi1.png", "sushi2.png", "sushi3.png", "sushi4.png", "sushi5.png", "sushi6.png", "sushi7.png", "sushi8.png", "sushi9.png"];
+var random_images = ["haiku1.png", "haiku2.png", "haiku3.png", "haiku4.png", "haiku5.png", "haiku6.png", "haiku7.png", "haiku8.png", "haiku9.png"];
 
 
 
@@ -15,7 +15,7 @@ $(".toggle").click(function() {
     });
 });
 
-var random__images = ["puppies.jpg"]
+var random__images = ["puppies.jpg", "alpacasso.jpg", "panda.JPG"]
 $(".toggle").click(function() {
 
 
