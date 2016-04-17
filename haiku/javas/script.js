@@ -16,7 +16,7 @@ $(".toggle").click(function() {
     });
 });
 
-var random__images = ["puppies.jpg", "alpacasso.jpg", "panda.JPG", "cinnabon.jpg"]
+var random__images = ["puppies.jpg", "alpacasso.jpg", "panda.JPG", "cinnabon.jpg", "innout.jpg", "tacoshop.jpeg"]
 $(".toggle").click(function() {
 
 

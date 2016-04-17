@@ -1,9 +1,19 @@
+.background { 
+	background: no-repeat center center local; 
+	background-size: cover;
+}
+
+head { 
+	background-size: 0px
+	background-color: transparent;
+	
+}
+
 body {
-background-color: #CCCCFF;
-width: 100%;
-height: 100%;
+background-color: pink;
+width: 1300px;
+height: 700px;
 margin: 0px;
-background-size: contain;
 z-index: -2;
 }
 
@@ -16,10 +26,20 @@ z-index: -2;
 	font-family: helvetica;
 	margin-left: 50%;
 	margin-top: 1%;
-	color: #CCCCFF;
+	color: pink;
 	position: fixed;
 	z-index: 3;
+	border: none;
 
+}
+
+div {
+  width: 1300px;
+  height: 700px;
+  margin: 0px;
+  background-size: cover
+  padding: 0px;
+  border: none;
 }
 
 .haiku {
@@ -28,21 +48,16 @@ z-index: -2;
 	height: 100%;
 	margin: 0 auto;
 	position: fixed;
-	z-index: 2;
-	padding-bottom: 25%
-	padding-top: 30%;
+	z-index: 1;
 	padding-left: 20%;
 	padding-right: 25%;
-	
+	padding-bottom: 25%;
+	padding-top: 0%;
 }
 
 .background { 
-	display: block;
-  min-width:100%;
- min-height:100%;
- margin: 0 auto;
-  position: fixed;
-	z-index: -1;
-	background-size: contain;
-	
+	background: repeat center center local; 
+	background-size: cover;
+	position: fixed;
+	margin: center;
 }
