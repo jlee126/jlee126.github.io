@@ -16,7 +16,8 @@ $(".toggle").click(function() {
     });
 });
 
-var random__images = ["puppies.jpg", "alpacasso.jpg", "panda.JPG", "cinnabon.jpg", "innout.jpg", "tacoshop.jpeg"]
+var random__images = ["puppies.jpg", "alpacasso.jpg", "panda.JPG", "cinnabon.jpg", "innout.jpg", "tacoshop.jpeg", "cacti.jpg",
+"cactusman.jpg", "minnie1.jpg", "minnie2.jpg", "kimchi.jpg", "IMG_0566.JPG", "alpacasso2.jpg"]
 $(".toggle").click(function() {
 
 
