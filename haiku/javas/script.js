@@ -28,6 +28,15 @@ $(".toggle").click(function() {
    });
 
 
+$('.toggle').click(function(){
+    var $this = $(this);
+    $this.toggleClass('.toggle');
+    if($this.hasClass('.toggle')){
+        $this.text('next');         
+    } else {
+        $this.text('next');
+    }
+});
 
 
 
