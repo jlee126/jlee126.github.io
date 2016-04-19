@@ -5,7 +5,6 @@
 
 head { 
 	background-size: 0px
-	background-color: transparent;
 }
 
 body {
@@ -22,7 +21,7 @@ z-index: -2;
 	border-radius: 50px;
 	font-size: 15px ;
 	background-color: white;
-	font-family: helvetica;
+	font-family: futura, sans serif;
 	margin-left: 50%;
 	margin-top: 1%;
 	color: pink;

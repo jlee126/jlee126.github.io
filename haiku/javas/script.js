@@ -18,10 +18,11 @@ $(".toggle").click(function() {
 });
 
 var random__images = ["puppies.jpg", "alpacasso.jpg", "panda.JPG", "cinnabon.jpg", "innout.jpg", "tacoshop.jpeg", "cacti.jpg",
-"cactusman.jpg", , "cactusman.jpg", "minnie1.jpg", "minnie2.jpg", "kimchi.jpg", "IMG_0566.JPG", "alpacasso2.jpg", "hopkins.jpg", "flooffycow.jpg", "polaroid.jpg",
+"cactusman.jpg", "cactusman.jpg", "minnie1.jpg", "minnie2.jpg", "kimchi.jpg", "IMG_0566.JPG", "alpacasso2.jpg", "hopkins.jpg", "flooffycow.jpg", "polaroid.jpg",
 "blank.jpg", "prattcat.jpg", "hopkins.jpg", "jellyfish.jpg", "painting.jpg", "bed.jpg", "rubios.jpg", "usher.jpg", "toilet.jpg", "99ranch.jpg",
 "puff.jpg", "kale.png", "redpanda.jpg", "koala.jpg", "koalafun.jpg", "chinafun.jpg", "bcd.jpg",
-"puppies.gif", "pom.gif", "pom2.gif", "pom3.gif", "haiku.jpg", "painting.jpg", "sushi6.png"]
+"puppies.gif", "pom.gif", "pom2.gif", "pom3.gif", "haiku.jpg", "painting.jpg", "sushi6.png",
+"gasstation.png", "kumon.jpg"]
 $(".toggle").click(function() {
 
 
