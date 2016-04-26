@@ -17,7 +17,7 @@ $(".toggle").click(function() {
     });
 });
 
-var random__images = ["puppies.jpg", "alpacasso.jpg", "panda.JPG", "cinnabon.jpg", "innout.jpg", "tacoshop.jpeg", "cacti.jpg",
+/* var random__images = ["puppies.jpg", "alpacasso.jpg", "panda.JPG", "cinnabon.jpg", "innout.jpg", "tacoshop.jpeg", "cacti.jpg",
 "cactusman.jpg", "cactusman.jpg", "minnie1.jpg", "minnie2.jpg", "kimchi.jpg", "IMG_0566.JPG", "alpacasso2.jpg", "hopkins.jpg", "flooffycow.jpg", "polaroid.jpg",
 "blank.jpg", "prattcat.jpg", "hopkins.jpg", "jellyfish.jpg", "painting.jpg", "bed.jpg", "rubios.jpg", "usher.jpg", "toilet.jpg", "99ranch.jpg",
 "puff.jpg", "kale.png", "redpanda.jpg", "koala.jpg", "koalafun.jpg", "chinafun.jpg", "bcd.jpg",
@@ -31,7 +31,22 @@ $(".toggle").click(function() {
     $(this).html("<img src='img/"+ randomimg + "'>");
    });
    });
+   
+ */
+ 
+ var randomImage = new Array();
+ 
+randomImage[0] = "http://lorempixel.com/400/200";
+randomImage[1] = "http://lorempixel.com/500/300";
+randomImage[2] = "http://lorempixel.com/600/400";
+ 
+function getRandomImage() { 
+var number = Math.floor(Math.random()*randomImage.length);
+document.write('<img src="'+randomImage[number]+'" />');
+}
+getRandomImage()
 
+   
 
 $('.toggle').click(function(){
     var $this = $(this);
