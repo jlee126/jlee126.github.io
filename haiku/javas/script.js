@@ -1,7 +1,10 @@
 
 var random_images = ["haiku1.png", "haiku2.png", "haiku3.png", "haiku4.png", "haiku5.png", "haiku6.png", "haiku7.png", "haiku8.png", "haiku9.png",
 "haiku10.png", "haiku11.png", "haiku12.png", "haiku13.png", "haiku14.png", "haiku15.png", "haiku16.png", "haiku17.png",
-"haiku18.png", "haiku19.png", "haiku20.png", "haiku21.png", "haiku22.png", "haiku23.png", "haiku24.png", "haiku25.png"];
+"haiku18.png", "haiku19.png", "haiku20.png", "haiku21.png", "haiku22.png", "haiku23.png", "haiku24.png", "haiku25.png", "haiku26.png",
+"haiku27.png", "haiku28.png", "haiku29.png", "haiku30.png", "haiku31.png", "haiku32.png", "haiku33.png", "haiku34.png", "haiku35.png", "haiku36.png",
+"haiku37.png", "haiku38.png", "haiku39.png", "haiku40.png"
+];
 
 
 
@@ -26,7 +29,9 @@ $(".toggle").click(function() {
 "shell.png", "box.jpg", "fish.jpg", "goldfish.jpg", "badtattoo.jpg", "fishpie.jpg", "amazon.jpg", "pasta.jpg", "stumped.jpg",
 "thankyou.jpeg", "mask.png", "recycle.jpg", "rain.jpeg", "squid.png", "oldpoway.jpg", "sapphire.jpg", "laundry.jpg", 
 "chicken.png", "fishbread.jpg", "chalk.jpg", "egg.jpeg", "marble.jpg", "cube.jpg", "tumble.jpg", "sandwiches.png", "chrome.jpg",
-"retainer.jpg", "dentist.jpg", "golf.jpg", "nickel.jpg", "tony.jpg"]
+"retainer.jpg", "dentist.jpg", "golf.jpg", "nickel.jpg", "tony.jpg", "tired.jpg", "apple.jpeg", "shrek.jpg", "vest.jpg", 
+"garden.jpg", "dropped.jpg", "pompom.jpg", "nsync.png", "coffin.jpg", "costume.jpg", "veggies.jpg", "toeshoes.jpg", 
+"cheese.jpg", "pumpkin.jpg", "tp.jpg"]
 
 $(".toggle").click(function() {
 
