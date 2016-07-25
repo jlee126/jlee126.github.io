@@ -33,6 +33,7 @@ background-color: white;
 	background-color: white;
 	overflow-y: auto;
 	max-height: 100%;
+	max-width: 100%;
 	vertical-align: bottom;
 	transform:rotate(180deg);
 	padding-bottom: 50px;
