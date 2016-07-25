@@ -410,7 +410,7 @@ background-color: white;
 .triangle2 {
 	width: 0;
 	height: 0;
-	border-top: 20px solid purple;
+	border-top: 20px solid #99cc00;
 	border-right: 150px solid transparent;
 	margin: auto;
 	border-radius: .5px;
