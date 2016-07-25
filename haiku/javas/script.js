@@ -42,8 +42,7 @@ $(".toggle").click(function() {
    });
    });
    
-
- 
+   
 /* var randomImage = new Array();
  
 randomImage[0] = "http://lorempixel.com/400/200";
@@ -57,6 +56,7 @@ document.write('<img src="'+randomImage[number]+'" />');
 getRandomImage()
 
 */
+
 
 $('.toggle').click(function(){
     var $this = $(this);
